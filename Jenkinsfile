@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'Scipt_Slave'
-    }
+    agent any
     stages {
         stage ('ShellScript') {
             steps {
